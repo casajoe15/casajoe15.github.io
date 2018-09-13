@@ -1,0 +1,27 @@
+body{
+  background-color: beige;
+  background-image: url('arena.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+a {
+  color:red;
+  text-decoration: none;
+}
+a:hover{
+  color:black;
+  font-weight: bold;
+}
+p a {
+  color:yellow;
+}
+p{
+  font-family: sans-serif;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: lower-alpha;
+}
