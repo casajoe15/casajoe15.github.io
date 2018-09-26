@@ -1,0 +1,28 @@
+body{
+  background-color: navy;
+  color: white;
+}
+a{
+ color: red;
+ text-decoration: none;
+}
+a:hover{
+  color:pink;
+  font-weight: bold;
+}
+p{
+font-family: 'Oswald', sans-serif;
+}
+h1{
+
+}
+ul{
+  color: :red;
+}
+
+.customlist{
+  color: purple;
+}
+#maintitle{
+  font-family: 'Montserrat', sans-serif;
+}
