@@ -1,0 +1,28 @@
+/* Generally, we use a separate css file to specify styles that are applied throughout regardless of window size (viewport)   */
+body { margin: 0; padding: 0;}
+.wrapper {
+  background: #CCCCCC;
+}
+nav {
+  background: #FF0000;
+}
+.navlinks {
+  list-style-type: none;
+}
+.navlinks li {
+  display: inline;
+}
+.navlinks a {
+  color: white;
+}
+.left {
+  background: white;
+}
+.right {
+  background: #333333;
+  color: white;
+}
+footer {
+  background: black;
+  color: white;
+}

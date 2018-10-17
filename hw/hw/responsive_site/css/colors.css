@@ -1,0 +1,15 @@
+body{
+  background: url("../images/yellow.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+p{
+  color: white;
+  padding: 20px;
+  background:
+}
+ul li{
+  list-style-type: none;
+  display: block;
+  border-color: red
+}
