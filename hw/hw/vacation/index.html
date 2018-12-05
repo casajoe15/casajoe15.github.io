@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      div { height: 500px; display: block; width: 100%; border: 1px solid #000;}
+      img{max-width: 100%}
+    </style>
+  </head>
+  <body>
+  <div id="div-1">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae maiores, officiis sapiente nulla, ea incidunt numquam culpa reprehenderit adipisci repellendus quod est. Itaque quis, id aut, vel ex voluptatum quam.</p>
+    <img src="drink 2.jpeg" alt="drink 2.jpeg">
+    <a href="#div-2" class="anchor-scroll" data-class-to="#div-2" data-scroll-end="bounce">...</a>
+  </div>
+  <div id="div-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae maiores, officiis sapiente nulla, ea incidunt numquam culpa reprehenderit adipisci repellendus quod est. Itaque quis, id aut, vel ex voluptatum quam.</p>
+        <img src="tree 2.jpeg" alt="tree 2.jpeg">
+    <a href="#div-3" class="anchor-scroll" data-class-to="#div-3" data-scroll-end="bounce">...</a>
+  </div>
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="scroll/jquery.anchorScroll.js">
+
+    </script>
+    <script>
+    $('.anchor-scroll').anchorScroll({
+        scrollSpeed: 800, // scroll speed
+        offsetTop: 0, // offset for fixed top bars (defaults to 0)
+        onScroll: function () {
+          // callback on scroll start
+        },
+        scrollEnd: function () {
+          // callback on scroll end
+        }
+     });
+
+    </script>
+  </body>
+</html>
