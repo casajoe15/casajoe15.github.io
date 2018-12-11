@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>skrollr - parallax scrolling for the masses</title>
+
+	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+
+	<div id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
+		<h1>Maui</a></h1>
+		<img src="images/lakers.jpg" alt="">
+		<h2>Come Enjoy Paradise</h2>
+		<p></p>
+		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
+	</div>
+
+	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+		<h2>Beaches</h2>
+		<p>Maui has some of the most beautiful beaches in the world. Some of these beaches include Baldwin Beach, Oneuli Beach, and Keawakapu Beach.</p>
+<ul>
+	<li>
+		<a href="https://www.mauicounty.gov/119/Parks-Recreation">Baldwin Beach</a>
+	</li>
+	<li>
+		<a href="https://www.mauicounty.gov/facilities/facility/details/keawakapuibeachpark-385">Keawakapu Beach</a>
+	</li>
+	<li>
+		<a href="https://www.mauicounty.gov/facilities/Facility/Details/169">Oneuli Beach</a>
+	</li>
+</ul>
+	</div>
+
+	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+		<h2>Activities</h2>
+		<p>There are countless number of activities to do in Maui. From biking through Makawao Forest, mountain hiking on the Kapalua Coastal Trail, surfing, and exploring the volcanos, there is enough on the island to keep anyone occupied.</p>
+		<ul>
+			<li>
+				<a href="https://www.bikemaui.com/maui-bike-trails/">Makawao Forest</a>
+			</li>
+			<li>
+				<a href="https://thesnorkelstore.com/4-spectacular-hikes-can-maui/">Kapalua Coastal Trail</a>
+			</li>
+
+		</ul>
+
+	</div>
+
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>Spas</h2>
+			<p>The resorts in Maui have some of the most soothing spas in the entire world. They have many ways to keep you relaxed such as massages, mud baths, cupping theorpy, and saunas. These spas make it feel like you are in heaven.</p>
+			<p>let me dim the <span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);">lights</span> for this one...</p>
+			 data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;"
+		</div>
+
+		<div class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">masage</div>
+		<div class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">mud bath</div>
+		<div class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">suana</div>
+		<div class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">cupping</div>
+		<div class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">facials</div>
+		<div class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">foot rubs</div>
+		<div class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">warm towels</div>
+	</div>
+
+	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+		<h2>Hotels</h2>
+		<p>The hotels located on the island are all right nect to the beach and all have incredible views. They also have 5 star resturants in them, which have some of the finest dishes you can find.</p>
+
+
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+
+	
+</body>
+
+</html>
